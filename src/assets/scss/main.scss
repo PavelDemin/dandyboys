@@ -1,0 +1,29 @@
+@import "utils/vars";
+@import "utils/reset";
+
+html {
+  font-size: $base-font-size;
+}
+body {
+  font-family: $base-font-family;
+  background-color: $background-color;
+  color: $base-font-color;
+}
+
+a {
+  color: $base-font-color;
+}
+
+.container {
+  width: $content-width;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+@import "modules/header";
+@import "modules/content";
